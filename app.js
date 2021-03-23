@@ -52,3 +52,36 @@ if (randomNumber == 0 ) {
 }
 
 console.log(`Magic Eigth Ball response: ${eigthBall}`);
+
+switch (randomNumber) {
+    case  1 :
+        eigthBall = "So it is!";
+        break;
+    case  0 :
+        eigthBall = "My source say no.";
+        break;
+    case  3 :
+        eigthBall = "Don't rely on that.";
+        break;
+    case  2 :
+        eigthBall = "Signs indicate yes!";
+        break;
+    case  4 :
+        eigthBall = "The prospects are not so good.";
+        break;
+    case  5 :
+        eigthBall = "Please try again.";
+        break;
+    case  5 :
+        eigthBall = "Unpredictible now.";
+        break;
+    case  5 :
+        eigthBall = "It's true!";
+        break;
+    case  5 :
+        eigthBall = "You may rely on it!";
+        break;
+    default: 
+        break;
+}
+console.log(`Magic Eigth Ball response: ${eigthBall}`);
